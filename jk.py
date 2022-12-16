@@ -22,10 +22,11 @@ h = open("HenryQin.jar", "wb")
 conten2 = requests.get(jarurl)  # 读取网页内容
 conten3=conten2.content
 h.write(conten3)
-    # 计算jar文件MD5值
-m = hashlib.md5(h.read())
-m=m.hexdigest()
 h.close()
+    # 计算jar文件MD5值
+with open('HenryQin.jar', 'rb') as i:
+    m = hashlib.md5(i.read()).hexdigest()
+
 
 # spider替换
 data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;'+m+'",', data, count=1, flags=re.M)
