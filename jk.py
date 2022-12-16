@@ -42,5 +42,5 @@ data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://
 
 localtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
-with open("Q2WForever2.json", "w",encoding='UTF-8') as out_file:
+with open("Q2WForever.json", "w",encoding='UTF-8') as out_file:
     out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data2)
