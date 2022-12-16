@@ -1,9 +1,9 @@
-# 2022-12-16 21:41:57
+# 2022-12-16 21:44:28
 {
     "wallpaper": "http://101.34.67.237/pics",
     "dr_count": 119,
     "mode": 1,
-    "spider": "http://101.34.67.237/files/custom_spider_tang.jar",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar",
     "drives": [
         {
             "name": "小雅的Alist",
