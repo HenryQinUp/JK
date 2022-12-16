@@ -1,6 +1,7 @@
 import re
 import requests
 import time
+import hashlib
 
 f = open("jk0.txt", "wb")
 conten = requests.get('http://drpy.site/js0')  # 读取网页内容
@@ -11,18 +12,23 @@ f.close()
 with open("jk0.txt", encoding='utf8') as g:
     data = g.read() #需要改的内容
 
-# 获取jar的url地址
+# 获取jar的url地址,并将地址写入jarurl.txt
 searchjarurl=re.search('("spider":.*")(http.*)(.*")',data,flags=re.M)
 jarurl=searchjarurl.group(2)
-
-h = open("HenryQin2.jar", "wb")
+with open("jarurl.txt", "w",encoding='UTF-8') as out_file:
+    out_file.write(jarurl)
+# 将获取到的jar内容写入HenryQin.jar
+h = open("HenryQin.jar", "wb")
 conten2 = requests.get(jarurl)  # 读取网页内容
 conten3=conten2.content
 h.write(conten3)
+    # 计算jar文件MD5值
+m = hashlib.md5(h.read())
+m=m.hexdigest()
 h.close()
 
 # spider替换
-data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar",', data, count=1, flags=re.M)
+data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;'+m+'",', data, count=1, flags=re.M)
 # wallpaper替换
 data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
 # 打开udp
