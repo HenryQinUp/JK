@@ -1,9 +1,9 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2022-12-16 22:07:11
+// https://henryqinup.github.io/JK/Q2WForever.json 2022-12-16 22:33:06
 {
     "wallpaper":"https://henryqinup.github.io/JK/background.jpg",
     "dr_count": 119,
     "mode": 1,
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;7b3db472894cc021c4b19daa26e1282a",
     "drives": [
         {
             "name": "小雅的Alist",
