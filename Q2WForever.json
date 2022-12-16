@@ -1,8 +1,9 @@
+// https://henryqinup.github.io/JK/Q2WForever.json 2022-12-16 22:37:30
 {
-    "wallpaper": "https://henryqinup.github.io/JK/background.jpg",
+    "wallpaper":"https://henryqinup.github.io/JK/background.jpg",
     "dr_count": 119,
     "mode": 1,
-    "spider": "http://101.34.67.237/files/custom_spider_tang.jar",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;7b3db472894cc021c4b19daa26e1282a",
     "drives": [
         {
             "name": "小雅的Alist",
@@ -133,17 +134,17 @@
     ],
     "homepage": "https://gitcode.net/qq_32394351/dr_py",
     "sites": [
-  {
-      "key":"Alist",
-      "name":"Alist",
-      "type":3,
-      "api":"http://101.34.67.237/libs/alist.min.js",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"http://101.34.67.237/txt/json/alist.json"
-  },
-  {
+	{
+	    "key":"Alist",
+	    "name":"Alist",
+	    "type":3,
+	    "api":"http://101.34.67.237/libs/alist.min.js",
+	    "searchable":1,
+	    "quickSearch":1,
+	    "filterable":0,
+	    "ext":"http://101.34.67.237/txt/json/alist.json"
+	},
+	{
             "key": "csp_新视觉",
             "name": "🍁新视觉",
             "type": 3,
@@ -151,7 +152,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-      "jar":"http://101.34.67.237/files/新视觉.jar"
+	    "jar":"http://101.34.67.237/files/新视觉.jar"
         },
         {
             "key": "dr_海盗听书",
