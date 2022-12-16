@@ -11,7 +11,7 @@ f.close()
 with open("jk0.txt", encoding='utf8') as g:
     data = g.read() #需要改的内容
 # spider替换
-data1=re.sub('^"spider":.*",$', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;c4ba98711fac35daff17780d0817f5dc",', data, count=1, re.M)
+data1=re.sub('^"spider":.*",$', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar",', data, count=1, re.M)
 # ws混淆
 data2=re.sub('network: ws, ws-opts: {path:.*}}', 'network: ws, ws-opts: {path: "/", headers: {Host: pull.free.video.10010.com}}}', data1, count=1, flags=0)
 # 打开udp
@@ -24,5 +24,5 @@ data5=re.sub('external-controller: :9090\ndns:\n  enabled: true\n  nameserver:\n
 
 localtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
-with open("Q2WForever.json", "w",encoding='UTF-8') as out_file:
+with open("Q2WForever2.json", "w",encoding='UTF-8') as out_file:
     out_file.write('# '+localtime+'\n'+data5)
