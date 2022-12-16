@@ -1,0 +1,36 @@
+name: jk
+ 
+on:
+  workflow_dispatch: #手动调试按钮
+  schedule:
+    - cron: '0 1/2 * * *'
+jobs:
+  job1:
+    runs-on: ubuntu-latest # 运行环境为最新版的Ubuntu
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Initialization environment
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install requests
+      - name: Timezone #UTC+0 → UTC+8
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
+      - name: zhuanhuan-pullfree
+        run: python3 jk.py
+     # - name: zhuanhuan-ding
+     #   run: python3 ding.py
+     # - name: zhuanhuan-caixin
+     #   run: python3 caixin.py
+      - name: init
+        run: | 
+           git config pull.rebase false
+           git config --local user.name "GitHub Actions"
+           git config --local user.email "actions@github.com"
+      - name: push
+        run: | 
+           git pull origin main && git add . && git commit -m "$(date '+%Y.%m.%d %H:%M:%S') 转换" && git push origin main
