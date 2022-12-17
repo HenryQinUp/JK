@@ -32,8 +32,10 @@ with open('HenryQin.jar', 'rb') as i:
 data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;'+m+'",', data, count=1, flags=re.M)
 # wallpaper替换
 data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
-# 打开udp
-#data3=re.sub('alterId: 0, cipher: auto,', 'alterId: 0, udp: true, cipher: auto,', data2, count=1, flags=0)
+# 提取需要的站点，并且更改站点顺序
+searchsite=re.search('(^{.*LIBVIO.*},$)',data,flags=re.S|re.I|re.M)
+site-libvio=searchsite.group(1)
+data3=re.sub('"sites":.\[\n', '"sites": [\n'+site-libvio, data2, count=1, flags=re.M|re.I)
 #负载均衡设置
 #data4=re.sub('strategy: consistent-hashing', 'strategy: round-robin', data3, count=1, flags=0)
 # 设置 DNS 经过代理
@@ -43,4 +45,4 @@ data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://
 localtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
 with open("Q2WForever.json", "w",encoding='UTF-8') as out_file:
-    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data2)
+    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data3)
