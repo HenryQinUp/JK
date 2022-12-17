@@ -37,7 +37,7 @@ searchsite=re.search('({\n            "key": "dr_LIBVIO",\n            "name": "
 sitelibvio=searchsite.group(1)
 with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
     out_file.write(sitelibvio)
-data3=re.sub('"sites":.\[\n', '"sites": [\n'+sitelibvio, data2, count=1, flags=re.M|re.I)
+data3=re.sub('"sites":.\[\n', '"sites": [\n'+'    '+sitelibvio,data2, count=1, flags=re.M|re.I)
 #负载均衡设置
 #data4=re.sub('strategy: consistent-hashing', 'strategy: round-robin', data3, count=1, flags=0)
 # 设置 DNS 经过代理
