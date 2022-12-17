@@ -34,11 +34,13 @@ data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQi
 data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
 # 提取需要的站点，并且更改站点顺序
 
-sitelibvio=re.compile('({\n            "key": "dr_LIBVIO",\n            "name": "LIBVIO\(drpy\)",\n.*?},\n)',flags=re.S|re.I).search(data).group()
+sitelibvio=re.compile('({\n            "key": "dr_LIBVIO",\n.*?},\n)',flags=re.S|re.I).search(data).group()
 sitebuka=re.compile('({\n            "key": "dr_真不卡",\n.*?},\n)',flags=re.S|re.I).search(data).group()
-data3=re.sub('"sites":.\[\n', '"sites": [\n'+'    '+sitelibvio+sitebuka,data2, count=1, flags=re.M|re.I)
+
+add=sitelibvio+sitebuka
+data3=re.sub('"sites":.\[\n', '"sites": [\n'+'    '+add,data2, count=1, flags=re.M|re.I)
 with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
-    out_file.write('\n'+sitelibvio)
+    out_file.write('\n'+add)
 
 # 解析设置轮询并发优先
 #data4=re.sub('strategy: consistent-hashing', 'strategy: round-robin', data3, count=1, flags=0)
