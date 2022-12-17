@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2022-12-17 16:59:55
+// https://henryqinup.github.io/JK/Q2WForever.json 2022-12-17 17:37:18
 {
     "wallpaper":"https://henryqinup.github.io/JK/background.jpg",
     "dr_count": 119,
@@ -143,6 +143,16 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "http://101.34.67.237/js/LIBVIO.js"
+        },
+{
+            "key": "dr_真不卡",
+            "name": "真不卡(drpy)",
+            "type": 3,
+            "api": "http://101.34.67.237/libs/drpy.min.js",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "http://101.34.67.237/js/真不卡.js"
         },
 	{
 	    "key":"Alist",
