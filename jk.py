@@ -36,7 +36,7 @@ data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://
 searchsite=re.search('({.*?"key":.*?"dr_LIBVIO",.*?"name":.*?"LIBVIO\(drpy\)",.*?},\n)',data,flags=re.S|re.I)
 sitelibvio=searchsite.group(1)
 with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
-    out_file.write(sitelibvio)
+    out_file.write('\n'+sitelibvio)
 data3=re.sub('"sites":.\[\n', '"sites": [\n'+'    '+sitelibvio,data2, count=1, flags=re.M|re.I)
 #负载均衡设置
 #data4=re.sub('strategy: consistent-hashing', 'strategy: round-robin', data3, count=1, flags=0)
