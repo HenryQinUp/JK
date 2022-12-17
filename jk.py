@@ -33,12 +33,15 @@ data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQi
 # wallpaper替换
 data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
 # 提取需要的站点，并且更改站点顺序
-searchsite=re.search('({\n            "key": "dr_LIBVIO",\n            "name": "LIBVIO\(drpy\)",\n.*?},\n)',data,flags=re.S|re.I)
-sitelibvio=searchsite.group(1)
+libvio=re.compile('({\n            "key": "dr_LIBVIO",\n            "name": "LIBVIO\(drpy\)",\n.*?},\n)')
+sitelibvio=libvio.search(data,flags=re.S|re.I)
+
+sitebuka=re.compile('({\n            "key": "dr_真不卡",\n.*?},\n)').search(data,flags=re.S|re.I)
+data3=re.sub('"sites":.\[\n', '"sites": [\n'+'    '+sitelibvio+sitebuka,data2, count=1, flags=re.M|re.I)
 with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
     out_file.write('\n'+sitelibvio)
-data3=re.sub('"sites":.\[\n', '"sites": [\n'+'    '+sitelibvio,data2, count=1, flags=re.M|re.I)
-#负载均衡设置
+
+# 解析设置轮询并发优先
 #data4=re.sub('strategy: consistent-hashing', 'strategy: round-robin', data3, count=1, flags=0)
 # 设置 DNS 经过代理
 
