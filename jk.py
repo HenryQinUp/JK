@@ -33,8 +33,10 @@ data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQi
 # wallpaper替换
 data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
 # 提取需要的站点，并且更改站点顺序
-searchsite=re.search('(^{.*LIBVIO.*},$)',data,flags=re.S|re.I|re.M)
+searchsite=re.search('(^{\n            "key": "dr_LIBVIO",\n            "name": "LIBVIO(drpy)",\n$)',data,flags=re.I|re.M)
 sitelibvio=searchsite.group(1)
+with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
+    out_file.write(sitelibvio)
 data3=re.sub('"sites":.\[\n', '"sites": [\n'+sitelibvio, data2, count=1, flags=re.M|re.I)
 #负载均衡设置
 #data4=re.sub('strategy: consistent-hashing', 'strategy: round-robin', data3, count=1, flags=0)
