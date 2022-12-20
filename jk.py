@@ -47,10 +47,10 @@ with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
 #parses=re.compile('({\s*"key": "dr_LIBVIO",\n.*?},\n)',flags=re.S|re.I).search(data).group()
 data4=re.sub('{\s*"name": "🌐Ⓤ",\s*"type": 0,\s*"url": "",\s*"header": {\s*"User-Agent": "Mozilla/5.0"\s*}\s*},\s*','', data3, count=1,flags=0)
 ##添加web和json聚合解析
-#juhe='{\n		"name": "Json\u805a\u5408",\n		"type": 3,\n		"url": "Demo"\n	},\n {\n		"name": "Web\u805a\u5408",\n		"type": 3,\n		"url": "Web"\n	},\n'
-#data5=re.sub('"parses": [\n', '"parses": [\n'+juhe, data4, count=1,flags=re.S|re.I)
+juhe='{\n		"name": "Json\u805a\u5408",\n		"type": 3,\n		"url": "Demo"\n	},\n {\n		"name": "Web\u805a\u5408",\n		"type": 3,\n		"url": "Web"\n	},\n'
+data5=re.sub('"parses":\s*[\s*', '"parses": [\n'+juhe, data4, count=1,flags=re.M)
 
 localtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
 with open("Q2WForever.json", "w",encoding='UTF-8') as out_file:
-    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data4)
+    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data5)
