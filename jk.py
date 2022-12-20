@@ -53,4 +53,4 @@ with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
 localtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
 with open("Q2WForever.json", "w",encoding='UTF-8') as out_file:
-    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data4)
+    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data3)
