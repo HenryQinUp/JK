@@ -43,9 +43,9 @@ with open("jarurl.txt", "a+",encoding='UTF-8') as out_file:
     out_file.write('\n'+add)
 
 # 解析设置轮询并发优先
-lunxun=re.compile('({\n            "name": "轮询",\n            "type": 2,\n            "url": "Sequence",\n            "header": {\n                "User-Agent": "Mozilla/5.0"\n            }\n        },\n        {\n            "name": "并发",\n            "type": 2,\n            "url": "Parallel",\n            "header": {\n                "User-Agent": "Mozilla/5.0"\n            }\n        },\n)',flags=re.S|re.I).search(data).group()
+#lunxun=re.compile('({\n            "name": "轮询",\n            "type": 2,\n            "url": "Sequence",\n            "header": {\n                "User-Agent": "Mozilla/5.0"\n            }\n        },\n        {\n            "name": "并发",\n            "type": 2,\n            "url": "Parallel",\n            "header": {\n                "User-Agent": "Mozilla/5.0"\n            }\n        },\n)',flags=re.S|re.I).search(data).group()
 #parses=re.compile('({\n            "key": "dr_LIBVIO",\n.*?},\n)',flags=re.S|re.I).search(data).group()
-data4=re.sub('"parses": [\n','"parses": [\n'+lunxun, data3, count=1,flags=0)
+#data4=re.sub('"parses": [\n','"parses": [\n'+lunxun, data3, count=1,flags=0)
 ##添加web和json聚合解析
 #juhe='{\n		"name": "Json\u805a\u5408",\n		"type": 3,\n		"url": "Demo"\n	},\n {\n		"name": "Web\u805a\u5408",\n		"type": 3,\n		"url": "Web"\n	},\n'
 #data5=re.sub('"parses": [\n', '"parses": [\n'+juhe, data4, count=1,flags=re.S|re.I)
