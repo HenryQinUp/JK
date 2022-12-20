@@ -1,6 +1,6 @@
 http://101.34.67.237/files/custom_spider_tang.jar
 
-    {
+            {
             "key": "dr_真不卡",
             "name": "真不卡(drpy)",
             "type": 3,
