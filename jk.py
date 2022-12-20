@@ -33,7 +33,7 @@ data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQi
 # wallpaper替换
 data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
 # 提取需要的站点
-sitelibvio=re.compile('({\n            "key": "dr_LIBVIO",\n.*?},\n)',flags=re.S|re.I).search(data).group()
+sitelibvio=re.compile('({\s"key": "dr_LIBVIO",\n.*?},\n)',flags=re.S|re.I).search(data).group()
 sitebuka=re.compile('({\n            "key": "dr_真不卡",\n.*?},\n)',flags=re.S|re.I).search(data).group()
 
 ## 更改站点顺序
