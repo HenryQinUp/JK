@@ -1,5 +1,6 @@
 http://101.34.67.237/files/custom_spider_tang.jar
-"key": "dr_LIBVIO",
+{
+            "key": "dr_LIBVIO",
             "name": "LIBVIO(drpy)",
             "type": 3,
             "api": "http://101.34.67.237/libs/drpy.min.js",
