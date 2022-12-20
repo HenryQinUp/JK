@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2022-12-20 22:23:35
+// https://henryqinup.github.io/JK/Q2WForever.json 2022-12-20 22:41:15
 {
     "wallpaper":"https://henryqinup.github.io/JK/background.jpg",
     "dr_count": 119,
@@ -1606,7 +1606,7 @@
         }
     ],
     "parses": [
-                {
+        {
             "name": "轮询",
             "type": 2,
             "url": "Sequence",
