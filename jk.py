@@ -11,7 +11,7 @@ f.close()
 
 with open("jk0.txt", encoding='utf8') as g:
     data = g.read() #需要改的内容
-'''
+
 # 获取jar的url地址,并将地址写入jarurl.txt
 # searchjarurl=re.search('("spider":.*")(http.*)(.*")',data,flags=re.M)
 # (?<="spider")(.*)(http.?:.*[^\s>]+?)(?=;md5)|(?<="spider")(.*)(http.?:.*[^\s>]+?)(?=",)
@@ -33,10 +33,12 @@ with open('HenryQin.jar', 'rb') as i:
 # spider替换
 data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;'+m+'",', data, count=1, flags=re.M)
 # wallpaper替换
-data2=re.sub('"wallpaper": "http://101.34.67.237/pics",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
+data2=re.sub('"wallpaper"(.*)(?=",)",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
+```
 # 提取需要的站点
 sitelibvio=re.compile('({\s*"key":\s*"dr_LIBVIO",\s*.*?},\s*)',flags=re.S|re.I).search(data).group(0)
 sitebuka=re.compile('({\s*"key":\s*"dr_真不卡",\s*.*?},\s*)',flags=re.S|re.I).search(data).group(0)
+```
 
 ## 更改站点顺序
 add=sitelibvio+sitebuka
@@ -51,7 +53,7 @@ data4=re.sub('{\s*"name": "🌐Ⓤ",\s*"type": 0,\s*"url": "",\s*"header": {\s*"
 ##添加web和json聚合解析
 juhe='{\n		"name": "Json\u805a\u5408",\n		"type": 3,\n		"url": "Demo"\n	},\n {\n		"name": "Web\u805a\u5408",\n		"type": 3,\n		"url": "Web"\n	},\n'
 data5=re.sub('"parses":\s*\[\s*', '"parses": [\n'+juhe, data4, count=1,flags=re.M)
-'''
+
 localtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
 with open("Q2WForever.json", "w",encoding='UTF-8') as out_file:
