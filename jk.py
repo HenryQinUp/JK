@@ -4,7 +4,11 @@ import time
 import hashlib
 
 f = open("jk0.txt", "wb")
-conten = requests.get('https://xhdwc.tk/0')  # 读取网页内容
+url='http://饭太硬.ga/tv'
+headers= {
+          'User-Agent': 'okhttp/3.15'
+         }
+conten = requests.get(url=url, headers=headers)  # 读取网页内容
 conten1=conten.content
 f.write(conten1)
 f.close()
