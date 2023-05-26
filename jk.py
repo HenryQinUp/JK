@@ -13,7 +13,9 @@ with open("jk0.txt", encoding='utf8') as g:
     data = g.read() #需要改的内容
 '''
 # 获取jar的url地址,并将地址写入jarurl.txt
-searchjarurl=re.search('("spider":.*")(http.*)(.*")',data,flags=re.M)
+# searchjarurl=re.search('("spider":.*")(http.*)(.*")',data,flags=re.M)
+# (?<="spider")(.*)(http.?:.*[^\s>]+?)(?=;md5)|(?<="spider")(.*)(http.?:.*[^\s>]+?)(?=",)
+searchjarurl=re.search('(?<="spider")(.*)(http.?:.*[^\s>]+?)(?=;md5)|(?<="spider")(.*)(http.?:.*[^\s>]+?)(?=",)',data,flags=re.M)
 jarurl=searchjarurl.group(2)
 with open("jarurl.txt", "w",encoding='UTF-8') as out_file:
     out_file.write(jarurl)
