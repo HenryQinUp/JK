@@ -4,7 +4,7 @@ import time
 import hashlib
 
 f = open("jk0.txt", "wb")
-conten = requests.get('http://hutool.ml/tang')  # 读取网页内容
+conten = requests.get('https://xhdwc.tk/0')  # 读取网页内容
 conten1=conten.content
 f.write(conten1)
 f.close()
@@ -34,11 +34,15 @@ with open('HenryQin.jar', 'rb') as i:
 data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;'+m+'",', data, count=1, flags=re.M)
 # wallpaper替换
 data2=re.sub('"wallpaper"(.*)(?=",)",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
-```
+# 删除rules内容
+data3=re.sub('"rules"(.*)(?=}],)}],', '',data2, count=1,flags=re.M)
+
+
+'''
 # 提取需要的站点
 sitelibvio=re.compile('({\s*"key":\s*"dr_LIBVIO",\s*.*?},\s*)',flags=re.S|re.I).search(data).group(0)
 sitebuka=re.compile('({\s*"key":\s*"dr_真不卡",\s*.*?},\s*)',flags=re.S|re.I).search(data).group(0)
-```
+
 
 ## 更改站点顺序
 add=sitelibvio+sitebuka
@@ -53,8 +57,8 @@ data4=re.sub('{\s*"name": "🌐Ⓤ",\s*"type": 0,\s*"url": "",\s*"header": {\s*"
 ##添加web和json聚合解析
 juhe='{\n		"name": "Json\u805a\u5408",\n		"type": 3,\n		"url": "Demo"\n	},\n {\n		"name": "Web\u805a\u5408",\n		"type": 3,\n		"url": "Web"\n	},\n'
 data5=re.sub('"parses":\s*\[\s*', '"parses": [\n'+juhe, data4, count=1,flags=re.M)
-
+'''
 localtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
 with open("Q2WForever.json", "w",encoding='UTF-8') as out_file:
-    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data)
+    out_file.write('// https://henryqinup.github.io/JK/Q2WForever.json '+localtime+'\n'+data3)
