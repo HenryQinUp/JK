@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-05-26 22:29:54
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-05-26 22:32:40
 {
     "wallpaper":"https://henryqinup.github.io/JK/background.jpg",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;f89c43655a15d4964c38573649a56702",
@@ -739,46 +739,6 @@
                 }
             ]
         }
-    ],
-    "rules": [
-    {
-      "name": "量子廣告",
-      "hosts": [
-        "vip.lz",
-        "hd.lz"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "非凡廣告",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "火山嗅探",
-      "hosts": [
-        "huoshan.com"
-      ],
-      "regex": [
-        "item_id="
-      ]
-    },
-    {
-      "name": "抖音嗅探",
-      "hosts": [
-        "douyin.com"
-      ],
-      "regex": [
-        "is_play_url="
-      ]
-    }
     ],
     "ads": [
         "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",
