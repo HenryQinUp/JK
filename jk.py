@@ -13,7 +13,7 @@ conten1=conten.content
 f.write(conten1)
 f.close()
 
-with open("jk0.txt", encoding='utf8') as g:
+with open("jk0.txt") as g:
     data = g.read() #需要改的内容
 
 # 获取jar的url地址,并将地址写入jarurl.txt
