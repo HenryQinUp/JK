@@ -35,7 +35,7 @@ data1=re.sub('"spider":.*",', '"spider":"https://henryqinup.github.io/JK/HenryQi
 # wallpaper替换
 data2=re.sub('"wallpaper"(.*)(?=",)",', '"wallpaper":"https://henryqinup.github.io/JK/background.jpg",', data1, count=1, flags=re.M)
 # 删除rules内容
-data3=re.sub('"rules"(.*)(?="ads")', '',data2, count=1,flags=re.M)
+data3=re.sub('"rules"(.*)(?="ads")', '',data2, count=1,flags=re.S)
 
 
 '''
