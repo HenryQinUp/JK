@@ -3,7 +3,7 @@ name: jk
 on:
   workflow_dispatch: #手动调试按钮
   schedule:
-    - cron: '0 6 1/1 * *'
+    - cron: '0 22 1/1 * *'
 jobs:
   job1:
     runs-on: ubuntu-latest # 运行环境为最新版的Ubuntu
