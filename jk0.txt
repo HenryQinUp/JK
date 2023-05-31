@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://xhdwc.tk/jar/cc.jar;md5;ebb1f03776fe4cb56896b10b7834739c",
+    "spider": "https://xhdwc.tk/jar/cc.jar;md5;10eb32e7f059984cba18ee3a8b764470",
     "lives": [
         {
             "name": "tvlive",
@@ -48,7 +48,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "SldYWXFabkhXTWlsTlpMdFNSSyN0ek1JdzlJQVJSY00=$$$Q01pbkowUzdvNnNZWk1WVw==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="
+            "ext": "SldZWXFaWkhXTU1sTlpadFNSSyN0elRJdzlMQVJSQ00=$$$Q1ppbkoxUzdvNnNZbU1WVw==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="
         },
         {
             "key": "csp_kuaikan",
@@ -58,6 +58,36 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_BuLei",
+            "name": "布雷",
+            "type": 3,
+            "api": "csp_BuLei",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://饭太硬.ga/$$$auto$$$sdlw1111$$$qqaa1122"
+        },
+        {
+            "key": "csp_Xinsj",
+            "name": "视觉",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.6080yy2.com/"
+        },
+        {
+            "key": "csp_如如",
+            "name": "如如",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://cms.maoyingshi.cc/api.php/app/"
         },
         {
             "key": "csp_apple",
@@ -95,16 +125,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.fantuanhd.com"
-        },
-        {
-            "key": "csp_Xinsj",
-            "name": "新视觉",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.6080yy2.com/"
         },
         {
             "key": "Zhaozy",
