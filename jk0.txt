@@ -59,15 +59,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_DiDuan",
-            "name": "低端",
-            "type": 3,
-            "api": "csp_Ddrk",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
             "key": "csp_AppTT",
             "name": "图图",
             "type": 3,
@@ -86,15 +77,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://cms.maoyingshi.cc/api.php/app/"
-        },
-        {
-            "key": "csp_apple",
-            "name": "苹果",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_77",
@@ -277,24 +259,6 @@
             "type": 3,
             "api": "csp_Bttwoo",
             "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Auete",
-            "name": "Auete",
-            "type": 3,
-            "api": "csp_Auete",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Cokemv",
-            "name": "Cokemv",
-            "type": 3,
-            "api": "csp_Cokemv",
-            "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
