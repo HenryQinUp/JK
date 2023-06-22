@@ -1,7 +1,7 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-06-22 06:13:06
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-06-23 06:15:33
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;aa78ba556383bd1adbad7745478ea5aa",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;09baf4a03d362d96f0fc14085c343191",
     "lives": [
         {
             "name": "tvlive",
@@ -69,14 +69,34 @@
             "filterable": 1
         },
         {
-            "key": "csp_AppTT",
-            "name": "图图",
-            "type": 3,
-            "api": "csp_AppTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "U2c3aDRRb0xMQnpWVjRhY1NSSyNIdW8wTkVCZG91ZWw=$$$U3FYMms0cWJZR2kzbzZzWQ==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="
+            "key":"csp_apple",
+            "name":"小苹果",
+            "type":3,
+            "api":"csp_LiteApple",
+            "playerType":1,
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1
+        },
+        {
+            "key":"如如",
+            "name":"如如",
+            "type":3,
+            "api":"csp_AppYsV2",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "ext":"http://longfei.lfytyl.com/api.php/app/"
+        },
+        {
+            "key":"黄黄",
+            "name":"黄黄",
+            "api":"csp_AppYsV2",
+            "type":3,
+            "filterable":1,
+            "quickSearch":1,
+            "searchable":1,
+            "ext":"https://api123.adys.app/xgapp.php/v3/"
         },
         {
             "key": "csp_77",
@@ -141,13 +161,6 @@
             "type":3,
             "api":"https://xhdwc.tk/lib/drpy2.min.js",
             "ext":"https://xhdwc.tk/js/FreeOK.js"
-        },
-        {
-            "key":"drpy_js_HDmoli",
-            "name":"HDmoli[js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/HDmoli.js"
         },
         {
             "key":"drpy_js_花猫TV",
@@ -271,6 +284,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.ysgc.fun"
+        },
+        {
+            "key":"MV_vod",
+            "name":"MV",
+            "type":1,
+            "api":"https://mv.饭太硬.ml/mv/vod",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "changeable":0
         },
         {
             "key":"Zhaozy",
