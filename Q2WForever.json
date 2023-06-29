@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-06-29 06:14:59
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-06-30 06:14:19
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;6fb0a205b857f35e165a5f8cb2f8056d",
@@ -82,6 +82,20 @@
             "type":3,
             "api":"./lib/drpy2.min.js",
             "ext":"./js/花猪影视[V2].js"
+        },
+        {
+            "key":"drpy_js_素白白",
+            "name":"素白白[js]",
+            "type":3,
+            "api":"./lib/drpy2.min.js",
+            "ext":"./js/素白白.js"
+        }, 
+        {
+            "key":"drpy_js_Voflix",
+            "name":"Voflix[js]",
+            "type":3,
+            "api":"./lib/drpy2.min.js",
+            "ext":"./js/Voflix.js"
         },
         {
             "key":"探探",
@@ -251,15 +265,6 @@
             "categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","香港剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","体育","足球","篮球","网球","斯诺克"]
         },
         {
-            "key":"非凡",
-            "name":"非凡",
-            "type":"0",
-            "api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
-            "searchable":"1",
-            "changeable":"1",
-            "categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","香港剧","欧美剧","记录片","台湾剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫"]
-        },
-        {
             "key": "csp_YQKAPP",
             "name": "一起看",
             "type": 3,
@@ -270,16 +275,6 @@
             "ext": "https://api-aws.11ty.top"
         },
         {
-            "key": "csp_Xinsj",
-            "name": "视觉",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.6080yy3.com/"
-        },
-        {
             "key": "Dm84",
             "name": "动漫巴士",
             "type": 3,
@@ -287,16 +282,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },     
-        {
-            "key": "csp_Vofl",
-            "name": "Voflix",
-            "type": 3,
-            "api": "csp_Voflix",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+        }, 
         {
             "key":"drpy_js_骚火电影",
             "name":"骚火电影[js]",
