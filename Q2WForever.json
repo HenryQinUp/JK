@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-07-18 06:13:53
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-07-19 06:13:29
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;b2000d077779d52426bdb2a1a1e92941",
@@ -41,15 +41,13 @@
             "filterable": 1
         },
         {
-            "key":"csp_fantuan",
-            "name":"饭团",
+            "key":"csp_DuoX",
+            "name":"多线",
             "type":3,
-            "api":"csp_Fantuan",
-            "playerType":1,
+            "api":"csp_DuoX",
             "searchable":1,
             "quickSearch":1,
-            "filterable":1,
-            "ext":"https://www.fantuan3.com"
+            "changeable":1
         },
         {
             "key": "csp_Czsapp",
@@ -68,56 +66,6 @@
             "searchable":1,
             "quickSearch":1,
             "changeable":1
-        },
-        {
-            "key":"探探",
-            "name":"探探",
-            "type":3,
-            "api":"csp_YT",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":0
-        },
-        {
-            "key":"酷酷",
-            "name":"酷酷",
-            "type":3,
-            "api":"csp_AppYsV2",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":0,
-            "ext":"http://ys.realdou.cn/api.php/app/",
-            "categories":["4K电影","4K电视剧"]
-        },
-        {
-            "key":"csp_Xinsj",
-            "name":"视觉",
-            "type":3,
-            "api":"csp_Xinsj",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":1,
-            "ext":"https://www.6080yy3.com/"
-        },
-        {
-            "key":"csp_DuoX",
-            "name":"多线",
-            "type":3,
-            "api":"csp_DuoX",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":1,
-            "ext":"http://1.117.111.78:93/home/api?type=ys&uid=230629&key=公众号【影视范】&url="
-        },
-        {
-            "key":"csp_Lib",
-            "name": "Libvio",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable":1,
-            "ext":"https://www.libvio.fun/"
         },
         {
             "key":"drpy_js_lf_ikanbot",
@@ -140,25 +88,25 @@
             "ext":"https://xhdwc.tk/js/FreeOK.js"
         },
         {
+            "key":"drpy_js_LIBVIO",
+            "name":"LIBVIO[js]",
+            "type":3,
+            "api":"https://xhdwc.tk/lib/drpy2.min.js",
+            "ext":"https://xhdwc.tk/js/LIBVIO.js"
+        },
+        {
             "key":"drpy_js_91free",
             "name":"91free[js]",
             "type":3,
-            "api":"./lib/drpy2.min.js",
-            "ext":"./js/91free.js"
-        },
-        {
-            "key":"drpy_js_HDmoli",
-            "name":"HDmoli[js]",
-            "type":3,
-            "api":"./lib/drpy2.min.js",
-            "ext":"./js/HDmoli.js"
+            "api":"https://xhdwc.tk/lib/drpy2.min.js",
+            "ext":"https://xhdwc.tk/js/91free.js"
         },
         {
             "key":"drpy_js_Voflix",
             "name":"Voflix[js]",
             "type":3,
-            "api":"./lib/drpy2.min.js",
-            "ext":"./js/Voflix.js"
+            "api":"https://xhdwc.tk/lib/drpy2.min.js",
+            "ext":"https://xhdwc.tk/js/Voflix.js"
         },
         {
             "key":"drpy_js_花猫TV",
@@ -253,6 +201,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key":"csp_fantuan",
+            "name":"饭团",
+            "type":3,
+            "api":"csp_Fantuan",
+            "playerType":1,
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "ext":"https://www.fantuan3.com"
         },
         {
             "key": "csp_beijihu",
