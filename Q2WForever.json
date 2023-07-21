@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-07-21 06:13:06
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-07-22 06:12:53
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;f4ec316a5fa752ef8082328b9b28e708",
@@ -293,16 +293,6 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key":"MV_vod",
-            "name":"MV",
-            "type":1,
-            "api":"https://mv.饭太硬.ml/mv/vod",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "changeable":0
         },
         {
             "key":"Zhaozy",
