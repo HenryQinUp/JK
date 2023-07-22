@@ -1,6 +1,6 @@
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;f4ec316a5fa752ef8082328b9b28e708",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;065f5221ab68939e0084f1bd6900d4ac",
     "lives": [
         {
             "name": "tvlive",
@@ -48,15 +48,6 @@
             "playerType":"1"
         },
         {
-            "key":"csp_DuoX",
-            "name":"多线",
-            "type":3,
-            "api":"csp_DuoX",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":1
-        },
-        {
             "key": "csp_Czsapp",
             "name": "厂长",
             "type": 3,
@@ -64,6 +55,35 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_kuaikan",
+            "name": "快看",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_77",
+            "name": "七七",
+            "type": 3,
+            "api": "csp_Kunyu77",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Nmys",
+            "name": "农民",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://xhdwc.tk/json/nm.json"
         },
         {
             "key":"csp_DiDuan" ,
@@ -82,6 +102,13 @@
             "searchable":1,
             "quickSearch":1,
             "changeable":0
+        },
+        {
+            "key":"drpy_js_新视觉影视",
+            "name":"新视觉影视[js]",
+            "type":3,
+            "api":"https://xhdwc.tk/lib/drpy2.min.js",
+            "ext":"https://xhdwc.tk/js/新视觉影视.js"
         },
         {
             "key":"drpy_js_lf_ikanbot",
@@ -146,20 +173,25 @@
             "ext":"https://xhdwc.tk/js/花猪影视[V2].js"
         },
         {
-            "key":"drpy_js_骚火电影",
-            "name":"骚火电影[js]",
+            "key":"drpy_js_F7好看剧[V2]",
+            "name":"F7好看剧[V2][js]",
             "type":3,
             "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/骚火电影.js"
+            "ext":"https://xhdwc.tk/js/F7好看剧[V2].js"
         },
         {
-            "key": "csp_kuaikan",
-            "name": "快看",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "key":"drpy_js_鸭鸭[V2]",
+            "name":"鸭鸭[V2][js]",
+            "type":3,
+            "api":"https://xhdwc.tk/lib/drpy2.min.js",
+            "ext":"https://xhdwc.tk/js/鸭鸭[V2].js"
+        },
+        {
+            "key":"drpy_js_爱看",
+            "name":"爱看[js]",
+            "type":3,
+            "api":"https://xhdwc.tk/lib/drpy2.min.js",
+            "ext":"https://xhdwc.tk/js/爱看.js"
         },
         {
             "key":"csp_Cokemv",
@@ -179,26 +211,6 @@
             "searchable":1,
             "quickSearch":1,
             "filterable":1
-        },
-        {
-            "key": "csp_77",
-            "name": "七七",
-            "type": 3,
-            "api": "csp_Kunyu77",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Nmys",
-            "name": "农民",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://xhdwc.tk/json/nm.json"
         },
         {
             "key": "csp_AppMr",
@@ -228,16 +240,6 @@
             "quickSearch":1,
             "filterable":1,
             "ext":"https://www.fantuan3.com"
-        },
-        {
-            "key": "csp_beijihu",
-            "name": "极狐",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.kuin.one/api.php/app/"
         },
         {
             "key":"量子",
