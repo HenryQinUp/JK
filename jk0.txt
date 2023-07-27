@@ -86,13 +86,10 @@
             "ext": "https://xhdwc.tk/json/nm.json"
         },
         {
-            "key":"探探",
-            "name":"探探",
+            "key":"drpy_js_lf_ikanbot",
+            "name":"lf_ikanbot[js]",
             "type":3,
-            "api":"csp_YT",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":0
+            "api":"https://xhdwc.tk/js/lf_ikanbot3_1_min.js"
         },
         {
             "key":"drpy_js_低端",
