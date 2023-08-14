@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-08-14 06:11:56
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-08-15 06:12:40
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;55894a9f32ba4201a1e2b157bb2e5c91",
@@ -39,6 +39,12 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {   
+            "key":"nangua",
+            "name":"南瓜影视[cat]",
+            "type":3,
+            "api":"./cat/ng_open.js"
         },
         {
             "key":"迪迪",

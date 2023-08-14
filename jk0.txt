@@ -39,6 +39,12 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        {   
+            "key":"nangua",
+            "name":"南瓜影视[cat]",
+            "type":3,
+            "api":"./cat/ng_open.js"
+        },
         {
             "key":"迪迪",
             "name":"迪迪",
