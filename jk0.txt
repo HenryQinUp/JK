@@ -39,11 +39,23 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        {
+            "key":"czzy",
+            "name":"厂长资源[cat]",
+            "type":3,
+            "api":"./cat/czzy_open.js"
+        },
         {   
             "key":"nangua",
             "name":"南瓜影视[cat]",
             "type":3,
             "api":"./cat/ng_open.js"
+        },
+        {
+            "key":"kkys",
+            "name":"快看影视[cat]",
+            "type":3,
+            "api":"./cat/kkys_open.js"
         },
         {
             "key":"迪迪",
@@ -65,15 +77,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.cz01.me/"
-        },
-        {
-            "key": "csp_kuaikan",
-            "name": "快看",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_77",
