@@ -1,7 +1,7 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-08-17 06:12:44
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-08-18 06:12:33
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;55894a9f32ba4201a1e2b157bb2e5c91",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;b3a5a49c793dd82c3fd04e75d3071b20",
     "lives": [
         {
             "name": "tvlive",
@@ -20,16 +20,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
-        },
-        {
-            "key": "csp_Bili",
-            "name": "哔哔合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://xhdwc.tk/json/bilibili.json"
         },
         {
             "key": "csp_WoGG",
@@ -59,6 +49,75 @@
             "api":"./cat/kkys_open.js"
         },
         {
+            "key":"libvio_open",
+            "name":"Libvio[cat]",
+            "type":3,
+            "api":"./cat/libvio_open.js"
+        },
+        {
+            "key":"mybili",
+            "name":"my哔哩[cat]",
+            "type":3,
+            "api":"./cat/mybili_open.js"
+        },
+        {
+            "key":"哈喽",
+            "name":"哈喽",
+            "type":3,
+            "api":"csp_AppYsV2",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1,
+            "ext":"http://www.miniku.cc/xgapp.php/v1/"
+        },
+        {
+            "key":"奇奇",
+            "name":"奇奇",
+            "type":1,
+            "api":"http://www.csykkj.club/api.php/provide/vod/from/qiqi",
+            "playUrl":"json:http://lgg.llwwwll.com:5477/home/api?type=ys&uid=387611&key=ahnrvxyzCDGJKPY137&url=",
+            "searchable":1,
+            "quickSearch":1,
+            "categories":["电影","连续剧","综艺","动漫"]
+        },
+        {
+            "key":"kuaikan",
+            "name":"快看",
+            "type":3,
+            "api":"csp_Kuaikan",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1
+        },
+        {
+            "key":"DiDuan",
+            "name":"低端",
+            "type":3,
+            "api":"csp_Ddrk",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1
+        },
+        {
+            "key":"Vofl",
+            "name":"VOF",
+            "type":3,
+            "api":"csp_Voflix",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1
+        },
+        {
+            "key":"Lib",
+            "name": "Libvio",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable":1,
+            "ext":"https://www.libvio.fun/"
+        },
+        {
             "key":"迪迪",
             "name":"迪迪",
             "api":"csp_AppYsV2",
@@ -67,17 +126,6 @@
             "quickSearch":1,
             "changeable":1,
             "ext":"https://api123.adys.app/xgapp.php/v3/"
-        },
-        {
-            "key": "csp_Czsapp",
-            "name": "厂长",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "playerType":2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.cz01.me/"
         },
         {
             "key": "csp_77",
@@ -129,13 +177,6 @@
             "playerType":"1"
         },
         {
-            "key":"drpy_js_低端",
-            "name":"低端[js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/ddys.js"
-        },
-        {
             "key":"drpy_js_骚火电影",
             "name":"骚火电影[js]",
             "type":3,
@@ -157,13 +198,6 @@
             "ext":"https://xhdwc.tk/js/子子影视.js"
         },
         {
-            "key":"drpy_js_LIBVIO",
-            "name":"LIBVIO[js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/LIBVIO.js"
-        },
-        {
             "key":"drpy_js_91free",
             "name":"91free[js]",
             "type":3,
@@ -171,32 +205,11 @@
             "ext":"https://xhdwc.tk/js/91free.js"
         },
         {
-            "key":"drpy_js_Voflix",
-            "name":"Voflix[js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/Voflix.js"
-        },
-        {
-            "key":"drpy_js_速看100[V2]",
-            "name":"速看100[V2][js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/速看100[V2].js"
-        },
-        {
             "key":"drpy_js_花猪影视[V2]",
             "name":"花猪影视[V2][js]",
             "type":3,
             "api":"https://xhdwc.tk/lib/drpy2.min.js",
             "ext":"https://xhdwc.tk/js/花猪影视[V2].js"
-        },
-        {
-            "key":"drpy_js_爱看",
-            "name":"爱看[js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/爱看.js"
         },
         {
             "key":"csp_XBPQ_FreeOK",
@@ -425,16 +438,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_Biliych",
-            "name": "哔哔演唱会",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://xhdwc.tk/json/biliych.json"
         },
         {
             "key": "课堂教育",
