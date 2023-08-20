@@ -154,6 +154,16 @@
             "ext": "https://xhdwc.tk/json/nm.json"
         },
         {
+            "key":"csp_XBPQ_FreeOK",
+            "name":"FreeOK小暴脾气",
+            "type":3,
+            "api":"csp_XBPQ",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1,
+            "ext":"https://xhdwc.tk/0/FreeOK.json"
+        },
+        {
             "key":"drpy_js_花猫TV",
             "name":"花猫TV[js]",
             "type":3,
@@ -190,25 +200,11 @@
             "ext":"https://xhdwc.tk/js/骚火电影.js"
         },
         {
-            "key":"drpy_js_新视觉影视",
-            "name":"新视觉影视[js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/新视觉影视.js"
-        },
-        {
             "key":"drpy_js_子子影视",
             "name":"子子影视[js]",
             "type":3,
             "api":"https://xhdwc.tk/lib/drpy2.min.js",
             "ext":"https://xhdwc.tk/js/子子影视.js"
-        },
-        {
-            "key":"drpy_js_91free",
-            "name":"91free[js]",
-            "type":3,
-            "api":"https://xhdwc.tk/lib/drpy2.min.js",
-            "ext":"https://xhdwc.tk/js/91free.js"
         },
         {
             "key":"drpy_js_花猪影视[V2]",
@@ -218,14 +214,18 @@
             "ext":"https://xhdwc.tk/js/花猪影视[V2].js"
         },
         {
-            "key":"csp_XBPQ_FreeOK",
-            "name":"FreeOK小暴脾气",
+            "key":"drpy_js_两个BT",
+            "name":"两个BT[js]",
             "type":3,
-            "api":"csp_XBPQ",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":1,
-            "ext":"https://xhdwc.tk/0/FreeOK.json"
+            "api":"./lib/drpy2.min.js",
+            "ext":"./js/两个BT.js"
+        },
+        {
+            "key":"drpy_js_爱迪[V2]",
+            "name":"爱迪[V2][js]",
+            "type":3,
+            "api":"./lib/drpy2.min.js",
+            "ext":"./js/爱迪[V2].js"
         },
         {
             "key":"csp_Cokemv",
@@ -265,17 +265,6 @@
             "filterable": 1
         },
         {
-            "key":"csp_fantuan",
-            "name":"饭团",
-            "type":3,
-            "api":"csp_Fantuan",
-            "playerType":1,
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "ext":"https://www.fantuan3.com"
-        },
-        {
             "key":"量子",
             "name":"量子",
             "type":"0",
@@ -295,15 +284,6 @@
             "ext": "https://api-aws.11ty.top"
         },
         {
-            "key": "Dm84",
-            "name": "动漫巴士",
-            "type": 3,
-            "api": "csp_Dm84",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "drpy_js_网飞.TV",
             "name": "网飞.TV[js]",
             "type": 3,
@@ -316,15 +296,6 @@
             "type":3,
             "api":"https://xhdwc.tk/lib/drpy2.min.js",
             "ext":"https://xhdwc.tk/js/宅腐影视.js",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Bttoo",
-            "name": "2BT",
-            "type": 3,
-            "api": "csp_Bttwoo",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1
