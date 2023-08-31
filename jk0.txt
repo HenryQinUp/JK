@@ -52,12 +52,6 @@
             "type":3,
             "api":"./cat/subaibai_open.js"
         },
-        {   
-            "key":"nangua",
-            "name":"南瓜影视[cat]",
-            "type":3,
-            "api":"./cat/ng_open.js"
-        },
         {
             "key":"kkys",
             "name":"快看影视[cat]",
@@ -120,16 +114,6 @@
             "quickSearch": 1,
             "changeable":1,
             "ext":"https://www.libvio.fun/"
-        },
-        {
-            "key":"迪迪",
-            "name":"迪迪",
-            "api":"csp_AppYsV2",
-            "type":3,
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":1,
-            "ext":"https://api123.adys.app/xgapp.php/v3/"
         },
         {
             "key": "csp_77",
