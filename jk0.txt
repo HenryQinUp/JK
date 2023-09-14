@@ -1,6 +1,6 @@
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;a62fec72bf4f675ddc1e19dfc09687cd",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;25bb6cc4f338fc20df9e5121b5bd1a25",
     "lives": [
         {
             "name": "tvlive",
@@ -59,16 +59,32 @@
             "ext":"https://www.6080yy3.com/"
         },
         {
-            "key":"subaibai",
-            "name":"素白白[cat]",
-            "type":3,
-            "api":"./cat/subaibai_open.js"
+            "key":"csp_Auete",
+            "name":"Auete",
+            "type": 3,
+            "api":"csp_Auete",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1
         },
         {
             "key":"快看",
             "name":"快看影视[cat]",
             "type":3,
             "api":"./cat/kkys_open.js"
+        },
+        {
+            "key":"kunyu77",
+            "name":"琨娱七七[cat]",
+            "type":3,
+            "api":"./cat/kunyu77_open.js"
+        },
+        {
+            "key":"drpy_js_素白白",
+            "name":"素白白[js]",
+            "type":3,
+            "api":"./lib/drpy1.min.js",
+            "ext":"https://xhdwc.tk/js/素白白.js"
         },
         {
             "key":"drpy_js_南瓜影视",
@@ -90,6 +106,23 @@
             "type":3,
             "api":"./lib/drpy1.min.js",
             "ext":"./js/农民影视.js"
+        },
+        {
+            "key":"drpy_js_两个BT",
+            "name":"两个BT[js]",
+            "type":3,
+            "api":"./lib/drpy1.min.js",
+            "ext":"./js/两个BT.js",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key":"drpy_js_厂长资源",
+            "name":"厂长资源[js]",
+            "type":3,
+            "api":"./lib/drpy1.min.js",
+            "ext":"./js/厂长资源.js"
         },
         {
             "key":"drpy_js_新视觉影视",
@@ -167,18 +200,6 @@
             "ext":"./js/酷客影院.js"
         },
         {
-            "key":"czzy",
-            "name":"厂长资源[cat]",
-            "type":3,
-            "api":"./cat/czzy_open.js"
-        },
-        {
-            "key":"mybili",
-            "name":"哔哩[cat]",
-            "type":3,
-            "api":"./cat/mybili_open.js"
-        },
-        {
             "key":"Bili",
             "name":"Bili",
             "type": 3,
@@ -188,13 +209,6 @@
             "quickSearch":0,
             "changeable":0,
             "ext":"https://xhdwc.tk/json/bilibili.json"
-        },
-        {
-            "key":"drpy_js_素白白",
-            "name":"素白白[js]",
-            "type":3,
-            "api":"./lib/drpy1.min.js",
-            "ext":"https://xhdwc.tk/js/素白白.js"
         },
         {
             "key":"drpy_js_HDmoli",
@@ -225,30 +239,11 @@
             "ext":"https://xhdwc.tk/js/花猪影视[V2].js"
         },
         {
-            "key":"drpy_js_两个BT",
-            "name":"两个BT[js]",
-            "type":3,
-            "api":"./lib/drpy1.min.js",
-            "ext":"./js/两个BT.js",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key":"drpy_js_爱迪[V2]",
             "name":"爱迪[V2][js]",
             "type":3,
             "api":"./lib/drpy1.min.js",
             "ext":"./js/爱迪[V2].js"
-        },
-        {
-            "key":"csp_Auete",
-            "name":"Auete",
-            "type": 3,
-            "api":"csp_Auete",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
         },
         {
             "key": "csp_Dy1010",
