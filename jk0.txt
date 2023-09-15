@@ -21,6 +21,15 @@
             "filterable": 0
         },
         {
+            "key": "bili_open",
+            "name": "哔哩猫",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": { "categories": "沙雕动画#沙雕穿越#沙雕","cookie": ""}
+        },
+        {
             "key": "csp_WoGG",
             "name": "玩偶哥哥(饭太硬阿里)",
             "type": 3,
@@ -148,7 +157,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable":1,
-            "ext":"https://www.libvio.fun/"
+            "ext":"https://www.libvio.pro/"
         },
         {
             "key":"kuaikan",
@@ -225,13 +234,6 @@
             "ext":"https://xhdwc.tk/js/骚火电影.js"
         },
         {
-            "key":"drpy_js_子子影视",
-            "name":"子子影视[js]",
-            "type":3,
-            "api":"./lib/drpy1.min.js",
-            "ext":"https://xhdwc.tk/js/子子影视.js"
-        },
-        {
             "key":"drpy_js_花猪影视[V2]",
             "name":"花猪影视[V2][js]",
             "type":3,
@@ -244,15 +246,6 @@
             "type":3,
             "api":"./lib/drpy1.min.js",
             "ext":"./js/爱迪[V2].js"
-        },
-        {
-            "key": "csp_Dy1010",
-            "name": "1010",
-            "type": 3,
-            "api": "csp_Dy1010",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "drpy_js_网飞.TV",
