@@ -1,6 +1,6 @@
     {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;1283f666a6cad6c58530d7f2d5eef333",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;9d742bf942adf729cadceba23f83ebd8",
     "lives": [
         {
             "name": "tvlive",
@@ -39,25 +39,14 @@
             "style": { "type": "rect", "ratio":3.8}
         },
         {
-            "key": "csp_WoGG",
-            "name": "玩偶哥哥(饭太硬阿里)",
-            "type": 3,
-            "api": "csp_WoGG",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-        },
-        {
-            "key":"荐片",
-            "name":"荐片",
+            "key":"csp_WoGG",
+            "name":"玩偶哥哥(饭太硬)",
             "type":3,
+            "api":"csp_WoGG",
             "searchable":1,
             "quickSearch":1,
-            "changeable":1,
-            "playerType":"1",
-            "api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/drpy1.min.js",
-            "ext":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/jp.js"
+            "changeable":0,
+            "ext":"http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd"
         },
         {
             "key":"Czsapp",
@@ -99,6 +88,17 @@
             "name":"琨娱七七[cat]",
             "type":3,
             "api":"./cat/kunyu77_open.js"
+        },
+        {
+            "key":"荐片",
+            "name":"荐片",
+            "type":3,
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1,
+            "playerType":"1",
+            "api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/drpy1.min.js",
+            "ext":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/jp.js"
         },
         {
             "key":"drpy_js_素白白",
@@ -203,13 +203,52 @@
             "filterable": 1
         },
         {
-            "key":"量子",
-            "name":"量子",
-            "type":0,
-            "api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/",
-            "searchable":1,
-            "changeable":1,
-            "categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","香港剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","体育","足球","篮球","网球","斯诺克"]
+            "key": "暴風",
+            "name": "暴風",
+            "type": 1,
+            "api": "https://bfzyapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "索尼",
+            "name": "索尼 ",
+            "type": 1,
+            "api": "https://suoniapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "快帆",
+            "name": "快帆",
+            "type": 1,
+            "api": "https://api.kuaifan.tv/api.php/provide/vod",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "量子",
+            "name": "量子",
+            "type": 0,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "櫻花",
+            "name": "櫻花",
+            "type": 3,
+            "api": "csp_Ying",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "巴士",
+            "name": "巴士",
+            "type": 3,
+            "api": "csp_Dm84",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key":"drpy_js_小纸条",
