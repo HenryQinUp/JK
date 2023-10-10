@@ -578,8 +578,18 @@
       "regex": [
         "is_play_url="
       ]
+    },
+    {
+      "name": "農民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
     }
-  ],
+  ]
+},
     "ijk": [
         {
             "group": "软解码",
