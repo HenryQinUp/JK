@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-10-30 06:12:17
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-10-31 06:12:58
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;aabde6a8ab69185b3de13788799f5f53",
@@ -121,7 +121,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czzy88.com/"
+            "ext": "https://czz9.com/"
         },
         {
             "key": "bili_open",
@@ -179,6 +179,27 @@
             "type": 3,
             "api": "./lib/drpy2.min.js",
             "ext": "./js/骚火电影.js"
+        },
+        {
+            "key": "drpy_js_8号影院",
+            "name": "8号影院[js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/8号影院.js"
+        },
+        {
+            "key": "drpy_js_子子影视",
+            "name": "子子影视[js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/子子影视.js"
+        },
+        {
+            "key": "drpy_js_南瓜影视",
+            "name": "南瓜影视[js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/南瓜影视.js"
         },
         {
             "key": "drpy_js_短剧网",
