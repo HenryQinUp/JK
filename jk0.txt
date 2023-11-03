@@ -137,6 +137,14 @@
             "ext": "https://czz9.com/"
         },
         {
+            "key": "索尼",
+            "name": "索尼 ",
+            "type": 1,
+            "api": "https://suoniapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "bili_open",
             "name": "哔哩猫",
             "type": 3,
@@ -264,14 +272,6 @@
             "name": "暴风",
             "type": 1,
             "api": "https://bfzyapi.com/api.php/provide/vod",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "索尼",
-            "name": "索尼 ",
-            "type": 1,
-            "api": "https://suoniapi.com/api.php/provide/vod",
             "searchable": 1,
             "changeable": 1
         },
@@ -622,6 +622,15 @@
             ],
             "regex": [
                 "is_play_url="
+            ]
+        },
+        {
+            "name": "索尼",
+            "hosts": [
+                "suonizy"
+            ],
+            "regex": [
+                "15.1666"
             ]
         },
         {
