@@ -27,18 +27,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$http://www.wogg.xyz/$$$弹"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
         },
-        {
-			"key": "feiyun",
-			"name": "飞云",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://agit.ai/xiaohewanwan/TVBox/raw/branch/master/js/fy.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0
-		},
         {
             "key": "Xinsj",
             "name": "新视觉",
@@ -188,17 +178,6 @@
             "changeable": 0,
             "ext": "http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod"
         },
-        {
-			"key": "玉米",
-			"name": "玉米",
-			"type": 0,
-			"api": "http://124.222.116.5/macos/api.php/provide/vod/at/xml/",
-			"playUrl": "json:http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url=",
-			"searchable": 1,
-			"changeable": 0,
-			"quickSearch": 1,
-			"filterable": 1
-		},
         {
             "key": "索尼",
             "name": "索尼 ",
