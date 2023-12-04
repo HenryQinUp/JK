@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;ea2690fc66083afe1431071968e60395",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;be6121b5c37471b191114027123912d2",
     "lives": [
         {
             "name": "tvlive",
@@ -30,6 +30,37 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
         },
         {
+            "key": "csp_Nmys",
+            "name": "农民",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://fanty.run.goorm.site/ext/nmys.json"
+        },
+        {
+            "key": "Czsapp",
+            "name": "厂长",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://czz9.com/"
+        },
+        {
+            "key": "毛驴",
+            "name": "毛驴",
+            "type": 3,
+            "api": "csp_MLYS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.maolvys.com/"
+        },
+        {
             "key": "Xinsj",
             "name": "新视觉",
             "type": 3,
@@ -37,7 +68,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.6080yy3.com/"
+            "ext": "https://www.hdmyy.com/"
+        },
+        {
+            "key": "Cokemv",
+            "name": "Cokemv",
+            "type": 3,
+            "api": "csp_Cokemv",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "csp_Auete",
@@ -116,25 +157,22 @@
             "ext": "https://www.libvio.pro/"
         },
         {
-            "key": "Czsapp",
-            "name": "厂长",
+            "key": "drpy_js_骚火电影",
+            "name": "骚火电影[js]",
             "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://czz9.com/"
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/骚火电影.js"
         },
         {
-            "key": "csp_Nmys",
-            "name": "农民",
+            "key": "荐片",
+            "name": "荐片",
             "type": 3,
-            "api": "csp_Nmys",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/json/nmys.json"
+            "playerType": "1",
+            "api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
+            "ext": "https://fanty.run.goorm.site/ext/jp.js"
         },
         {
             "key": "新6V",
@@ -147,21 +185,11 @@
             "ext": "http://www.xb6v.com/"
         },
         {
-            "key": "荐片",
-            "name": "荐片",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "https://agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js",
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/jp.js"
-        },
-        {
             "key": "迪迪",
             "name": "迪迪",
             "api": "csp_AppYsV2",
             "type": 3,
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -187,74 +215,6 @@
             "changeable": 1
         },
         {
-            "key": "bili_open",
-            "name": "哔哩猫",
-            "type": 3,
-            "api": "./js/bili_open.js",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "categories": "沙雕动画#沙雕穿越#沙雕",
-                "cookie": ""
-            }
-        },
-        {
-            "key": "drpy_js_花猫TV",
-            "name": "花猫TV[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/花猫TV.js"
-        },
-        {
-            "key": "drpy_js_骚火电影",
-            "name": "骚火电影[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/骚火电影.js"
-        },
-        {
-            "key": "drpy_js_8号影院",
-            "name": "8号影院[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/8号影院.js"
-        },
-        {
-            "key": "drpy_js_子子影视",
-            "name": "子子影视[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/子子影视.js"
-        },
-        {
-            "key": "drpy_js_短剧网",
-            "name": "短剧网[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/短剧网.js"
-        },
-        {
-            "key": "drpy_js_南瓜影视",
-            "name": "南瓜影视[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/南瓜影视.js"
-        },
-        {
-            "key": "drpy_js_新视觉影视",
-            "name": "新视觉影视[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/新视觉影视.js"
-        },
-        {
-            "key": "drpy_js_两个BT",
-            "name": "Bttwoo[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/两个BT.js"
-        },
-        {
             "key": "暴风",
             "name": "暴风",
             "type": 1,
@@ -271,18 +231,16 @@
             "changeable": 1
         },
         {
-            "key": "虎牙",
-            "name": "虎牙直播",
+            "key": "bili_open",
+            "name": "哔哩猫",
             "type": 3,
-            "api": "https://www.agit.ai/fantaiying/fty/raw/branch/master/JS/drpy1.min.js",
-            "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/虎牙直播.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
+            "api": "./js/bili_open.js",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "categories": "沙雕动画#沙雕穿越#沙雕",
+                "cookie": ""
+            }
         },
         {
             "key": "七夜",
