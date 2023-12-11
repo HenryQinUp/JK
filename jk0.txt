@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;be6121b5c37471b191114027123912d2",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;7f5b55c37dba231f3862cd1a8c8ea932",
     "lives": [
         {
             "name": "tvlive",
@@ -28,7 +28,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
-        },
+        },   
         {
             "key": "csp_Nmys",
             "name": "农民",
@@ -49,16 +49,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://czz9.com/"
-        },
-        {
-            "key": "毛驴",
-            "name": "毛驴",
-            "type": 3,
-            "api": "csp_MLYS",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.maolvys.com/"
         },
         {
             "key": "Xinsj",
@@ -118,6 +108,27 @@
             "changeable": 1
         },
         {
+            "key": "drpy_js_骚火电影",
+            "name": "骚火电影[js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/骚火电影.js"
+        },
+        {
+            "key": "drpy_js_量子资源",
+            "name": "量子资源[js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/量子资源.js"
+        },
+        {
+            "key": "drpy_js_影探[V2]",
+            "name": "影探[V2][js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/影探[V2].js"
+        },
+        {
             "key": "csp_Bttoo",
             "name": "Bttwoo",
             "type": 3,
@@ -157,22 +168,12 @@
             "ext": "https://www.libvio.pro/"
         },
         {
-            "key": "drpy_js_骚火电影",
-            "name": "骚火电影[js]",
+            "key": "drpy_js_荐片",
+            "name": "荐片[js]",
             "type": 3,
             "api": "./lib/drpy2.min.js",
-            "ext": "./js/骚火电影.js"
-        },
-        {
-            "key": "荐片",
-            "name": "荐片",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-            "ext": "https://fanty.run.goorm.site/ext/jp.js"
+            "ext": "./js/荐片.js",
+            "playerType": "1"
         },
         {
             "key": "新6V",
@@ -229,18 +230,6 @@
             "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "bili_open",
-            "name": "哔哩猫",
-            "type": 3,
-            "api": "./js/bili_open.js",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "categories": "沙雕动画#沙雕穿越#沙雕",
-                "cookie": ""
-            }
         },
         {
             "key": "七夜",
