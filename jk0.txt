@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;3a1219034ed657f925c606543689b8cf",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;58adbd51a4bbed437f442e4e9a4c85c2",
     "lives": [
         {
             "name": "tvlive",
@@ -122,13 +122,6 @@
             "ext": "./js/量子资源.js"
         },
         {
-            "key": "drpy_js_影探[V2]",
-            "name": "影探[V2][js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/影探[V2].js"
-        },
-        {
             "key": "csp_Bttoo",
             "name": "Bttwoo",
             "type": 3,
@@ -220,14 +213,6 @@
             "name": "暴风",
             "type": 1,
             "api": "https://bfzyapi.com/api.php/provide/vod",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "量子",
-            "name": "量子",
-            "type": 0,
-            "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
             "searchable": 1,
             "changeable": 1
         },
