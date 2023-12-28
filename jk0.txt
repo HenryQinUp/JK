@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;8c6fadafee20b3780e602f8f52c7cc92",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;8ba7ff79221a3b1dd152646f48cd279c",
     "lives": [
         {
             "name": "tvlive",
@@ -19,16 +19,6 @@
             "quickSearch": 0,
             "filterable": 0
         },
-        {
-            "key": "csp_WoGG",
-            "name": "玩偶哥哥(饭太硬)",
-            "type": 3,
-            "api": "csp_WoGG",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
-        },   
         {
             "key": "csp_Nmys",
             "name": "农民",
@@ -61,6 +51,16 @@
             "changeable": 1
         },
         {
+            "key": "csp_WoGG",
+            "name": "玩偶哥哥(饭太硬)",
+            "type": 3,
+            "api": "csp_WoGG",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
+        },
+        {
             "key": "Xinsj",
             "name": "新视觉",
             "type": 3,
@@ -90,6 +90,36 @@
             "filterable": 1
         },
         {
+            "key": "九六",
+            "name": "1369",
+            "type": 3,
+            "api": "csp_Cs1369",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "忍者",
+            "name": "忍者",
+            "type": 3,
+            "api": "csp_MYYS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://rzys.xyz"
+        },
+        {
+            "key": "毛驴",
+            "name": "毛驴",
+            "type": 3,
+            "api": "csp_MLYS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.maolvys.com/"
+        },
+        {
             "key": "77",
             "name": "七七",
             "type": 3,
@@ -106,7 +136,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },   
+        },
         {
             "key": "drpy_js_荐片",
             "name": "荐片[js]",
