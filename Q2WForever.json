@@ -1,13 +1,13 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2023-12-30 06:13:25
+// https://henryqinup.github.io/JK/Q2WForever.json 2023-12-31 06:13:02
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;8ba7ff79221a3b1dd152646f48cd279c",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
     "lives": [
         {
             "name": "tvlive",
             "type": 0,
             "url": "https://xhdwc.tk/tvlive.txt",
-            "playerType": 2
+            "playerType": 1
         }
     ],
     "sites": [
