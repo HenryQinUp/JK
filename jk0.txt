@@ -146,20 +146,6 @@
             "playerType": "1"
         },
         {
-            "key": "drpy_js_蛋蛋剧",
-            "name": "蛋蛋剧[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/蛋蛋剧.js"
-        },
-        {
-            "key": "drpy_js_免费看",
-            "name": "免费看[js]",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/免费看.js"
-        },
-        {
             "key": "drpy_js_骚火电影",
             "name": "骚火电影[js]",
             "type": 3,
@@ -243,14 +229,6 @@
             "filterable": 1,
             "changeable": 0,
             "ext": "http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod"
-        },
-        {
-            "key": "索尼",
-            "name": "索尼 ",
-            "type": 1,
-            "api": "https://suoniapi.com/api.php/provide/vod",
-            "searchable": 1,
-            "changeable": 1
         },
         {
             "key": "暴风",
