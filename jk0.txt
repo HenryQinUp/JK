@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;fd784008ab71d81a178564841059756d",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;64110baeb9974690f7b374a8b2586ac5",
     "lives": [
         {
             "name": "tvlive",
@@ -18,17 +18,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
-        },
-        {
-            "key": "csp_Nmys",
-            "name": "农民",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://fanty.run.goorm.site/ext/nmys.json"
-        },
+        }, 
         {
             "key": "Czsapp",
             "name": "厂长",
@@ -61,6 +51,16 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
         },
         {
+            "key": "九六",
+            "name": "1369",
+            "type": 3,
+            "api": "csp_Cs1369",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "Xinsj",
             "name": "新视觉",
             "type": 3,
@@ -90,16 +90,6 @@
             "filterable": 1
         },
         {
-            "key": "九六",
-            "name": "1369",
-            "type": 3,
-            "api": "csp_Cs1369",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "毛驴",
             "name": "毛驴",
             "type": 3,
@@ -108,6 +98,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.maolvys.com/"
+        },
+        {
+            "key": "csp_Nmys",
+            "name": "农民",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://fanty.run.goorm.site/ext/nmys.json"
         },
         {
             "key": "77",
