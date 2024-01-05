@@ -18,17 +18,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
-        }, 
-        {
-            "key": "Czsapp",
-            "name": "厂长",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzy33.com/"
         },
         {
             "key": "南瓜",
@@ -88,6 +77,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "Czsapp",
+            "name": "厂长",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzy33.com/"
         },
         {
             "key": "毛驴",
