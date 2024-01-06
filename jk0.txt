@@ -3,6 +3,12 @@
     "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;64110baeb9974690f7b374a8b2586ac5",
     "lives": [
         {
+            "name": "嗅探",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+            "type": 0,
+            "url": "https://xhdwc.tk/xiutan.m3u"
+        },
+        {
             "name": "tvlive",
             "type": 0,
             "url": "https://xhdwc.tk/tvlive.txt",
@@ -87,7 +93,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czzy33.com/"
+            "ext": "https://www.czzy22.com/"
         },
         {
             "key": "毛驴",
@@ -98,16 +104,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.maolvys.com/"
-        },
-        {
-            "key": "csp_Nmys",
-            "name": "农民",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://fanty.run.goorm.site/ext/nmys.json"
         },
         {
             "key": "77",
@@ -126,6 +122,13 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "drpy_js_农民",
+            "name": "农民[js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/农民影视.js"
         },
         {
             "key": "drpy_js_荐片",
