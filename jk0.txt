@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;5aee1ff968a3dc5cbbf225399e9441e9",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06;md5;c774c41f98e151b33aa70e525b38164a",
     "lives": [
         {
             "name": "嗅探",
@@ -43,7 +43,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+auto|4k|fhd$$$https://api.wogg.xyz/"
         },
         {
             "key": "九六",
@@ -66,16 +66,6 @@
             "ext": "https://www.hdmyy.com/"
         },
         {
-            "key": "Cokemv",
-            "name": "Cokemv",
-            "type": 3,
-            "api": "csp_Cokemv",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_Auete",
             "name": "Auete",
             "type": 3,
@@ -96,16 +86,6 @@
             "ext": "https://www.czzy66.com/"
         },
         {
-            "key": "毛驴",
-            "name": "毛驴",
-            "type": 3,
-            "api": "csp_MLYS",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.maolvys.com/"
-        },
-        {
             "key": "77",
             "name": "七七",
             "type": 3,
@@ -122,6 +102,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "赞赞",
+            "name": "赞赞",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://111.230.51.151:9696//api.php/app/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
         },
         {
             "key": "农民影视",
@@ -143,6 +133,68 @@
             "playerType": "1",
             "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
             "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"
+        },
+        {
+            "key": "ggys_open",
+            "name": "高光[cat]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/cat/ggys_open.js"
+        },
+        {
+            "key": "drpy_js_骚火电影",
+            "name": "骚火[js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/骚火电影.js"
+        },
+        {
+            "key": "drpy_js_量子资源",
+            "name": "量子[js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/量子资源.js"
+        },
+        {
+            "key": "鑫鑫[V2]",
+            "name": "鑫鑫[V2][js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/鑫鑫[V2].js"
+        },
+        {
+            "key": "北极狐[V2]",
+            "name": "北极狐[V2][js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/北极狐[V2].js"
+        },
+        {
+            "key": "ikanbot3",
+            "name": "ikanbot3[js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/ikanbot3.js"
+        },
+        {
+            "key": "drpy_js_玄天",
+            "name": "玄天[js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/玄天.js"
+        },
+        {
+            "key": "drpy_js_爱看",
+            "name": "爱看[js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/爱看.js"
+        },
+        {
+            "key": "新视觉影视js",
+            "name": "新视觉影视[js]",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/新视觉影视.js"
         },
         {
             "key": "csp_Bttoo",
@@ -192,17 +244,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "http://www.xb6v.com/"
-        },
-        {
-            "key": "迪迪",
-            "name": "迪迪",
-            "api": "csp_AppYsV2",
-            "type": 3,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://api123.adys.app/xgapp.php/v3/"
         },
         {
             "key": "腐宅",
@@ -366,26 +407,7 @@
     ],
     "rules": [
         {
-            "name": "proxy",
-            "hosts": [
-                "raw.githubusercontent.com",
-                "googlevideo.com",
-                "cdn.v82u1l.com",
-                "cdn.iz8qkg.com",
-                "cdn.kin6c1.com",
-                "c.biggggg.com",
-                "c.olddddd.com",
-                "haiwaikan.com",
-                "www.histar.tv",
-                "youtube.com",
-                "uhibo.com",
-                ".*boku.*",
-                ".*nivod.*",
-                ".*ulivetv.*"
-            ]
-        },
-        {
-            "name": "海外看",
+            "name": "hwk",
             "hosts": [
                 "haiwaikan"
             ],
@@ -398,7 +420,17 @@
             ]
         },
         {
-            "name": "索尼",
+            "name": "yqk",
+            "hosts": [
+                "yqk88"
+            ],
+            "regex": [
+                "18.4",
+                "15.1666"
+            ]
+        },
+        {
+            "name": "sn",
             "hosts": [
                 "suonizy"
             ],
@@ -408,7 +440,7 @@
             ]
         },
         {
-            "name": "暴風",
+            "name": "bf",
             "hosts": [
                 "bfzy"
             ],
@@ -417,7 +449,7 @@
             ]
         },
         {
-            "name": "星星",
+            "name": "xx",
             "hosts": [
                 "aws.ulivetv.net"
             ],
@@ -426,10 +458,11 @@
             ]
         },
         {
-            "name": "量子",
+            "name": "lz",
             "hosts": [
                 "vip.lz",
                 "hd.lz",
+                "v.cdnlz1",
                 "v.cdnlz"
             ],
             "regex": [
@@ -447,7 +480,7 @@
             ]
         },
         {
-            "name": "火山嗅探",
+            "name": "hs",
             "hosts": [
                 "huoshan.com"
             ],
@@ -456,7 +489,7 @@
             ]
         },
         {
-            "name": "抖音嗅探",
+            "name": "dy",
             "hosts": [
                 "douyin.com"
             ],
@@ -465,12 +498,23 @@
             ]
         },
         {
-            "name": "農民嗅探",
+            "name": "nm",
             "hosts": [
                 "toutiaovod.com"
             ],
             "regex": [
                 "video/tos/cn"
+            ]
+        },
+        {
+            "name": "cl",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "最新",
+                "直播",
+                "更新"
             ]
         }
     ]
