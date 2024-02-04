@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1706895639008/fan.txt;md5;63f50337d37d87c6a3b61d81375fc378",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2",
     "lives": [
         {
             "name": "tvlive",
@@ -46,6 +46,12 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$https://www.wogg.link/$$$弹"
         },
         {
+            "key": "drpy_js_lf_p2p",
+            "name": "磁力p2p(搜索)",
+            "type": 3,
+            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/lf_p2p1_min.js"
+        },
+        {
             "key": "Xinsj",
             "name": "新视觉",
             "type": 3,
@@ -65,6 +71,35 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.czzy55.com/"
+        },
+        {
+            "key": "快看",
+            "name": "快看",
+            "type": 3,
+            "api": "csp_Kkys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Lib",
+            "name": "Libvio",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.libvio.la/"
+        },
+        {
+            "key": "Auete",
+            "name": "Auete",
+            "type": 3,
+            "api": "csp_Auete",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://auete.pro/"
         },
         {
             "key": "369",
@@ -188,16 +223,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "Lib",
-            "name": "Lib",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.libvio.pro/"
         },
         {
             "key": "新6V",
