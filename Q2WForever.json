@@ -1,19 +1,19 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-06 06:15:01
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-15 06:13:14
 {
-    "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2",
+    "wallpaper": "https://www.100km.top/api/img.php",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;4eec8bf0a642330662224a01636e0df6",
     "lives": [
         {
             "name": "tvlive",
             "type": 0,
-            "url": "https://xhdwc.tk/tvlive.txt",
+            "url": "https://www.100km.top/tvlive.txt",
             "playerType": 2
         },
         {
             "name": "嗅探",
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
             "type": 0,
-            "url": "https://xhdwc.tk/xiutan.m3u"
+            "url": "https://www.100km.top/xiutan.m3u"
         }
     ],
     "sites": [
@@ -97,16 +97,6 @@
             "type": 3,
             "api": "csp_Ddrk",
             "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "369",
-            "name": "369",
-            "type": 3,
-            "api": "csp_Cs1369",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -228,48 +218,44 @@
             "changeable": 1
         },
         {
-            "key": "七夜",
-            "name": "七夜(阿里搜索)",
-            "type": 3,
-            "api": "csp_Dovx",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd"
-        },
-        {
             "key": "YiSo",
-            "name": "一搜(阿里搜索)",
+            "name": "易搜┃搜索",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+        },
+        {
+            "key": "PanSou",
+            "name": "盘搜┃搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
         {
             "key": "UpYun",
-            "name": "云搜(阿里搜索)",
+            "name": "Up搜┃搜索",
             "type": 3,
             "api": "csp_UpYun",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
         {
             "key": "PanSearch",
-            "name": "盘搜索(阿里搜索)",
+            "name": "盘Se┃搜索",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
         {
             "key": "push_agent",
