@@ -1,19 +1,19 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-15 06:13:14
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-16 06:12:56
 {
-    "wallpaper": "https://www.100km.top/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;4eec8bf0a642330662224a01636e0df6",
+    "wallpaper": "https://xhdwc.tk/api/img.php",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;be7060a567ce9e8021946b6de0ed8dae",
     "lives": [
         {
             "name": "tvlive",
             "type": 0,
-            "url": "https://www.100km.top/tvlive.txt",
+            "url": "https://xhdwc.tk/tvlive.txt",
             "playerType": 2
         },
         {
             "name": "嗅探",
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
             "type": 0,
-            "url": "https://www.100km.top/xiutan.m3u"
+            "url": "https://xhdwc.tk/xiutan.m3u"
         }
     ],
     "sites": [
