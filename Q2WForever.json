@@ -1,7 +1,7 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-18 06:14:31
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-19 06:14:26
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;be7060a567ce9e8021946b6de0ed8dae",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;87d5916b7bb5c8acacac5490e802828e",
     "lives": [
         {
             "name": "tvlive",
@@ -47,6 +47,17 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$https://www.wogg.link/$$$弹"
         },
         {
+            "key": "荐片",
+            "name": "荐片",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "1",
+            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"
+        },
+        {
             "key": "drpy_js_lf_p2p",
             "name": "磁力p2p(搜索)",
             "type": 3,
@@ -62,17 +73,7 @@
             "changeable": 1,
             "ext": "https://www.hdmyy.com/"
         },
-        {
-            "key": "Czsapp",
-            "name": "厂长",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzy55.com/"
-        },
+        
         {
             "key": "快看",
             "name": "快看",
@@ -102,6 +103,17 @@
             "changeable": 1
         },
         {
+            "key": "Czsapp",
+            "name": "厂长",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzy55.com/"
+        },
+        {
             "key": "77",
             "name": "七七",
             "type": 3,
@@ -128,18 +140,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json"
-        },
-        {
-            "key": "荐片",
-            "name": "荐片",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"
-        },
+        },  
         {
             "key": "ggys_open",
             "name": "高光[cat]",
