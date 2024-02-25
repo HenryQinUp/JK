@@ -1,8 +1,15 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-25 06:12:46
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-02-26 06:13:32
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;87d5916b7bb5c8acacac5490e802828e",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;69c44556911acb40c53846bd52873fee",
     "lives": [
+        {
+            "name": "白嫖",
+            "type": 0,
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
+            "epg": "https://epg.erw.cc/api/diyp/?ch={name}&date={date}",
+            "logo": "https://public.t4tv.hz.cz/logo?ch={name}"
+        },
         {
             "name": "tvlive",
             "type": 0,
