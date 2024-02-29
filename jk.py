@@ -19,8 +19,10 @@ with open("jk0.txt", encoding='utf8') as g:
 # 获取jar的url地址,并将地址写入jarurl.txt
 # searchjarurl=re.search('("spider":.*")(http.*)(.*")',data,flags=re.M)
 # (?<="spider")(.*)(http.?:.*[^\s>]+?)(?=;md5)|(?<="spider")(.*)(http.?:.*[^\s>]+?)(?=",)
-searchjarurl=re.search('(?<="spider")(.*)(http.?:.*[^\s>]+?)(?=;md5)|(?<="spider")(.*)(http.?:.*[^\s>]+?)(?=",)',data,flags=re.M)
-jarurl=searchjarurl.group(2)
+searchjarurl=re.search('"spider":\s*"([^"]+)"',data,flags=re.M)
+jarurl=searchjarurl.group(1)
+if ';md5' in jarurl:  
+        jarurl = jarurl.split(';md5')[0]  
 with open("jarurl.txt", "w",encoding='UTF-8') as out_file:
     out_file.write(jarurl)
 # 将获取到的jar内容写入HenryQin.jar
