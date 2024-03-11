@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-03-11 06:13:55
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-03-12 06:13:11
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;9fdf355f7d803698900ccf4ceb4626cb",
@@ -32,6 +32,49 @@
             "filterable": 0
         },
         {
+            "key": "快看",
+            "name": "快看",
+            "type": 3,
+            "api": "csp_Kkys",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "原创",
+            "name": "原创",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Xinsj",
+            "name": "新视觉",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.80yy3.com/"
+        },
+        {
+            "key": "厂长",
+            "name": "厂长",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzy77.com/"
+        },
+        {
             "key": "南瓜",
             "name": "南瓜",
             "type": 3,
@@ -49,7 +92,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$https://www.wogg.link/$$$弹"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
         },
         {
             "key": "荐片",
@@ -67,25 +110,6 @@
             "name": "磁力p2p(搜索)",
             "type": 3,
             "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/lf_p2p1_min.js"
-        },
-        {
-            "key": "快看",
-            "name": "快看",
-            "type": 3,
-            "api": "csp_Kkys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Xinsj",
-            "name": "新视觉",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.hdmyy.com/"
         },
         {
             "key": "csp_Bttoo",
@@ -113,26 +137,6 @@
             "api": "csp_AppTT",
             "playerType": 2,
             "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
-        },
-        {
-            "key": "哔嘀",
-            "name": "哔嘀",
-            "type": 3,
-            "api": "csp_Bdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Czsapp",
-            "name": "厂长",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzy55.com/"
         },
         {
             "key": "77",
@@ -181,12 +185,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json"
-        },
-        {
-            "key": "ggys_open",
-            "name": "高光[cat]",
-            "type": 3,
-            "api": "https://agit.ai/dxawi/ray/raw/branch/master/cat/ggys_open.js"
         },
         {
             "key": "drpy_js_量子资源",
@@ -310,18 +308,6 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd"
         },
         {
-            "key": "bili_open",
-            "name": "哔哩貓",
-            "type": 3,
-            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
-                "cookie": ""
-            }
-        },
-        {
             "key": "csp_Nbys",
             "name": "泥视频(墙外)",
             "type": 3,
@@ -417,7 +403,9 @@
             ],
             "regex": [
                 "18.4",
-                "15.1666"
+                "15.1666",
+                "16.5333",
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
             ]
         },
         {
