@@ -1,7 +1,7 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-03-28 06:15:19
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-03-29 06:13:11
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;6fcaf5603964547fd0e414312eb5cd92",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;602fb3226d777850053484cdeb2f3296",
     "lives": [
         {
             "name": "白嫖",
@@ -150,14 +150,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "追剧",
-            "name": "追剧",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
         },
         {
             "key": "77",
