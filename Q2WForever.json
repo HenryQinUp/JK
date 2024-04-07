@@ -1,7 +1,7 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-04-07 06:13:10
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-04-08 06:12:24
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;939c79aa5e93766504d1f7a957d32f24",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;eb12fd6d2a7ac3be4ec3b8a65fae192f",
     "lives": [
         {
             "name": "白嫖",
@@ -32,14 +32,20 @@
             "filterable": 0
         },
         {
-            "key": "csp_WoGG",
-            "name": "玩偶哥哥(饭太硬阿里)",
+            "key": "玩偶",
+            "name": "玩偶哥哥(网盘4K)",
             "type": 3,
             "api": "csp_WoGG",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+            "ext": {
+                "aliToken": "tvfan/token.txt",
+                "quarkCookie": "tvfan/cookie.txt",
+                "from": "4k|auto|fhd",
+                "siteUrl": "https://api.wogg.xyz/",
+                "danMu": "弹"
+            }
         },
         {
             "key": "快看",
