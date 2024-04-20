@@ -1,7 +1,7 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-04-20 06:13:45
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-04-21 06:13:48
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;08ae765676d7dffee6f7e363c0c22de1",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;5d951f2dbd9e24ce7cc82c59d46f8417",
     "lives": [
         {
             "name": "白嫖",
@@ -97,17 +97,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czys03.com/"
-        },
-        {
-            "key": "77",
-            "name": "七七",
-            "type": 3,
-            "api": "csp_Kunyu77",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
+            "ext": "https://www.cz233.com/"
         },
         {
             "key": "南瓜",
@@ -204,18 +194,8 @@
             "ext": "https://auete.pro/"
         },
         {
-            "key": "短剧",
-            "name": "短剧",
-            "type": 3,
-            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/上头短剧.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
-            "key": "贱贱",
-            "name": "贱贱",
+            "key": "荐片",
+            "name": "荐片",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
