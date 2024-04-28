@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-04-28 06:13:42
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-04-29 06:13:20
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;ca8aebf22c8948c98104d094d5f87c73",
@@ -248,7 +248,7 @@
             "key": "drpy_js_lf_p2p",
             "name": "磁力p2p(搜索)",
             "type": 3,
-            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/lf_p2p1_min.js"
+            "api": "https://xhdwc.tk/js/lf_p2p1_min.js"
         },
         {
             "key": "腐宅",
@@ -265,40 +265,12 @@
             "key": "drpy_js_量子资源",
             "name": "量子[js]",
             "type": 3,
-            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/量子资源.js"
-        },
-        {
-            "key": "鑫鑫[V2]",
-            "name": "鑫鑫[V2][js]",
-            "type": 3,
-            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/鑫鑫[V2].js"
-        },
-        {
-            "key": "ikanbot3",
-            "name": "ikanbot3[js]",
-            "type": 3,
-            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/ikanbot3.js"
-        },
-        {
-            "key": "新视觉js",
-            "name": "新视觉[js]",
-            "type": 3,
-            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/新视觉影视.js"
-        },
-        {
-            "key": "drpy_js_Auete",
-            "name": "Auete[js]",
-            "type": 3,
-            "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/Auete.js"
+            "api": "https://xhdwc.tk/lib/drpy2.min.js",
+            "ext": "https://xhdwc.tk/js/量子资源.js"
         },
         {
             "key": "YiSo",
-            "name": "易搜┃搜索",
+            "name": "易搜索",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -308,7 +280,7 @@
         },
         {
             "key": "PanSou",
-            "name": "盘搜┃搜索",
+            "name": "盘搜搜索",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -318,7 +290,7 @@
         },
         {
             "key": "UpYun",
-            "name": "Up搜┃搜索",
+            "name": "云搜索",
             "type": 3,
             "api": "csp_UpYun",
             "searchable": 1,
@@ -328,7 +300,7 @@
         },
         {
             "key": "PanSearch",
-            "name": "盘Se┃搜索",
+            "name": "盘搜索",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
@@ -367,7 +339,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/bilibili.json"
+            "ext": "https://xhdwc.tk/json/bilibili.json"
         },
         {
             "key": "课堂教育",
@@ -377,7 +349,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx1.json"
+            "ext": "https://xhdwc.tk/json/xx1.json"
         },
         {
             "key": "少儿教育",
@@ -387,7 +359,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx2.json"
+            "ext": "https://xhdwc.tk/json/xx2.json"
         },
         {
             "key": "小学教育",
@@ -397,7 +369,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx3.json"
+            "ext": "https://xhdwc.tk/json/xx3.json"
         },
         {
             "key": "初中教育",
@@ -407,7 +379,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx4.json"
+            "ext": "https://xhdwc.tk/json/xx4.json"
         },
         {
             "key": "高中教育",
@@ -417,7 +389,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx5.json"
+            "ext": "https://xhdwc.tk/json/xx5.json"
         }
     ],
     "doh": [
