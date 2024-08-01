@@ -1,7 +1,7 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-08-01 06:15:10
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-08-02 06:15:11
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;71d846866f2ceb9666ba114e5963983f",
+    "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;c1f397cad87b1e7ba161d93d7e0fbf85",
     "lives": [
         {
             "name": "tvlive",
@@ -88,6 +88,15 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.czys.pro/"
+        },
+        {
+            "key": "煤球",
+            "name": "煤球",
+            "type": 3,
+            "api": "csp_Appmq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "IK",
@@ -186,6 +195,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "腐剧",
+            "name": "腐剧",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://www.fuju2024.cc:8013/ruifenglb_api.php/v1.vod"
         },
         {
             "key": "文采",
@@ -366,7 +385,7 @@
         },
         {
             "key": "YiSo",
-            "name": "易搜┃搜索",
+            "name": "易搜（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -379,7 +398,7 @@
         },
         {
             "key": "PanSou",
-            "name": "盘搜┃搜索",
+            "name": "盘搜（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -392,7 +411,7 @@
         },
         {
             "key": "UpYun",
-            "name": "Up搜┃搜索",
+            "name": "Up搜（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_UpYun",
             "searchable": 1,
@@ -405,7 +424,7 @@
         },
         {
             "key": "PanSearch",
-            "name": "盘Se┃搜索",
+            "name": "盘Se（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
