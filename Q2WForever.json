@@ -1,19 +1,35 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2024-11-30 06:17:41
+// https://henryqinup.github.io/JK/Q2WForever.json 2024-12-01 06:17:12
 {
-    "wallpaper": "https://xhdwc.tk/api/img.php",
+    "wallpaper": "https://www.100km.top/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;ceb55a4a2d2ec91bd9d76f4234a70f99",
     "lives": [
         {
-            "name": "tvlive",
+            "name": "牛播一(新版影视仓/ok影视)",
             "type": 0,
-            "url": "https://xhdwc.tk/tvlive.txt",
-            "playerType": 2
+            "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
-            "name": "TV",
+            "name": "IPV4",
             "type": 0,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "IPV6①",
+            "type": 0,
+            "url": "https://ghp.ci/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
             "playerType": 1
+        },
+        {
+            "name": "IPV6②",
+            "type": 0,
+            "url": "https://ghp.ci/raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
         }
     ],
     "sites": [
@@ -57,29 +73,10 @@
             "changeable": 1
         },
         {
-            "key": "比特",
-            "name": "比特",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "苹果",
             "name": "苹果",
             "type": 3,
             "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "原创",
-            "name": "原创",
-            "type": 3,
-            "api": "csp_YCyz",
-            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -93,11 +90,22 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://czzy.top/"
+            "ext": "https://www.czzyvideo.com/"
+        },
+        {
+            "key": "原创",
+            "name": "原创",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "玩偶",
-            "name": "玩偶哥哥（网盘）",
+            "name": "玩偶哥哥(网盘)",
             "type": 3,
             "api": "csp_WoGG",
             "searchable": 1,
@@ -109,6 +117,48 @@
                 "siteUrl": "https://www.wogg.net/",
                 "danMu": "弹"
             }
+        },
+        {
+            "key": "zxzj",
+            "name": "在线",
+            "type": 3,
+            "api": "csp_Zxzj",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://www.zxzjhd.com/"
+        },
+        {
+            "key": "低端",
+            "name": "低端",
+            "type": 3,
+            "api": "csp_Ddrk",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Auete",
+            "name": "奥特",
+            "type": 3,
+            "api": "csp_Auete",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://auete.pro/"
+        },
+        {
+            "key": "腐剧",
+            "name": "腐剧",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://www.fuju2024.cc:8013/ruifenglb_api.php/v1.vod"
         },
         {
             "key": "暴风",
@@ -254,38 +304,6 @@
             "changeable": 1
         },
         {
-            "key": "zxzj",
-            "name": "在线外剧",
-            "type": 3,
-            "api": "csp_Zxzj",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://www.zxzjhd.com/"
-        },
-        {
-            "key": "低端",
-            "name": "低端外剧",
-            "type": 3,
-            "api": "csp_Ddrk",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Auete",
-            "name": "奥特",
-            "type": 3,
-            "api": "csp_Auete",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://auete.pro/"
-        },
-        {
             "key": "新6V",
             "name": "新6V磁力",
             "type": 3,
@@ -294,15 +312,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "https://www.xb6v.com/"
-        },
-        {
-            "key": "短剧",
-            "name": "短剧",
-            "type": 3,
-            "api": "csp_Djtt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "Dm84",
@@ -358,14 +367,17 @@
             }
         },
         {
-            "key": "腐剧",
-            "name": "腐剧",
+            "key": "UC",
+            "name": "优汐(网盘搜索)",
             "type": 3,
-            "api": "csp_AppYsV2",
+            "api": "csp_UuSs",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://www.fuju2024.cc:8013/ruifenglb_api.php/v1.vod"
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
         },
         {
             "key": "haiwaikan",
@@ -464,7 +476,7 @@
         },
         {
             "key": "push_agent",
-            "name": "手机┃推送",
+            "name": "手机推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
@@ -485,7 +497,7 @@
         },
         {
             "key": "Bili",
-            "name": "Bili",
+            "name": "哔哔合集┃弹幕",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -495,57 +507,103 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://xhdwc.tk/json/bilibili.json"
+            "ext": {
+                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+            }
         },
         {
-            "key": "课堂教育",
-            "name": "课堂教育",
+            "key": "Biliych",
+            "name": "哔哔演唱会┃弹幕",
             "type": 3,
             "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/biliych.json"
+            }
+        },
+        {
+            "key": "dr_兔小贝",
+            "name": "儿童┃启蒙",
+            "type": 3,
+            "api": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://xhdwc.tk/json/xx1.json"
+            "changeable": 0
         },
         {
             "key": "少儿教育",
-            "name": "少儿教育",
+            "name": "少儿┃教育",
             "type": 3,
             "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://xhdwc.tk/json/xx2.json"
+            "changeable": 0,
+            "ext": {
+                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/少儿教育.json"
+            }
         },
         {
-            "key": "小学教育",
-            "name": "小学教育",
+            "key": "小学课堂",
+            "name": "小学┃课堂",
             "type": 3,
             "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://xhdwc.tk/json/xx3.json"
+            "changeable": 0,
+            "ext": {
+                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/小学课堂.json"
+            }
         },
         {
-            "key": "初中教育",
-            "name": "初中教育",
+            "key": "初中课堂",
+            "name": "初中┃课堂",
             "type": 3,
             "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://xhdwc.tk/json/xx4.json"
+            "changeable": 0,
+            "ext": {
+                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/初中课堂.json"
+            }
         },
         {
             "key": "高中教育",
-            "name": "高中教育",
+            "name": "高中┃课堂",
             "type": 3,
             "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://xhdwc.tk/json/xx5.json"
+            "changeable": 0,
+            "ext": {
+                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/高中课堂.json"
+            }
         }
     ]
 }
