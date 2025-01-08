@@ -27,31 +27,11 @@
             "filterable": 0
         },
         {
-            "key": "荐片",
-            "name": "荐片P2P",
+            "key": "白白",
+            "name": "白白",
             "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
-        },
-        {
-            "key": "文采",
-            "name": "文采",
-            "type": 3,
-            "api": "csp_Jpys",
+            "api": "csp_Sbaibai",
             "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "苹果",
-            "name": "苹果",
-            "type": 3,
-            "api": "csp_LiteApple",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -77,6 +57,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "drpy_js_荐片",
+            "name": "荐片[js]",
+            "type": 3,
+            "api": "https://www.100km.top/lib/drpy2.min.js",
+            "ext": "https://www.100km.top/js/荐片.js",
+            "playerType": "1"
         },
         {
             "key": "玩偶",
@@ -126,6 +114,25 @@
             "ext": "https://auete.pro/"
         },
         {
+            "key": "文采",
+            "name": "文采",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "苹果",
+            "name": "苹果",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "腐剧",
             "name": "腐剧",
             "type": 3,
@@ -164,14 +171,6 @@
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
             "ext": "https://www.100km.top/js/厂长资源.js"
-        },
-        {
-            "key": "drpy_js_荐片",
-            "name": "荐片[js]",
-            "type": 3,
-            "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/荐片.js",
-            "playerType": "1"
         },
         {
             "key": "drpy_js_8号影院",
