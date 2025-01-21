@@ -3,17 +3,11 @@
     "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06",
     "lives": [
         {
-            "name": "IPV4",
+            "name": "FMM",
             "type": 0,
-            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
+            "url": "https://ghfast.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
-        },
-        {
-            "name": "IPV6",
-            "type": 0,
-            "url": "https://ghp.ci/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "playerType": 1
         }
     ],
     "sites": [
@@ -31,6 +25,16 @@
             "name": "白白",
             "type": 3,
             "api": "csp_Sbaibai",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "AppSj",
+            "name": "视界",
+            "type": 3,
+            "api": "csp_AppSj",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
