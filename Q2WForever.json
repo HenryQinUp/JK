@@ -1,4 +1,4 @@
-// https://henryqinup.github.io/JK/Q2WForever.json 2025-02-03 06:16:33
+// https://henryqinup.github.io/JK/Q2WForever.json 2025-02-04 06:16:22
 {
     "wallpaper": "https://www.100km.top/api/img.php",
     "spider":"https://henryqinup.github.io/JK/HenryQin.jar;md5;9dbf4e8b686d614d5d6ae609347742ab",
@@ -148,16 +148,6 @@
             "changeable": 1
         },
         {
-            "key": "AppSj",
-            "name": "视界",
-            "type": 3,
-            "api": "csp_AppSj",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "可可",
             "name": "可可",
             "type": 3,
@@ -206,56 +196,64 @@
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
             "ext": "https://www.100km.top/js/荐片.js",
-            "playerType": "1"
+            "playerType": "1",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "drpy_js_厂长资源",
             "name": "厂长资源[js]",
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/厂长资源.js"
+            "ext": "https://www.100km.top/js/厂长资源.js",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "drpy_js_8号影院",
             "name": "8号影院[js]",
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/8号影院.js"
+            "ext": "https://www.100km.top/js/8号影院.js",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "drpy_js_NY影院",
             "name": "纽约影院[js]",
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/NY影院.js"
+            "ext": "https://www.100km.top/js/NY影院.js",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "drpy_js_楚门影院",
             "name": "楚门影院[js]",
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/楚门影院.js"
+            "ext": "https://www.100km.top/js/楚门影院.js",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "drpy_js_B站影视",
             "name": "B站影视[js]",
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/B站影视.js"
+            "ext": "https://www.100km.top/js/B站影视.js",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "drpy_js_奇米动漫",
             "name": "奇米动漫[js]",
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/奇米动漫.js"
+            "ext": "https://www.100km.top/js/奇米动漫.js",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "drpy_js_NT动漫",
             "name": "NT动漫[js]",
             "type": 3,
             "api": "https://www.100km.top/lib/drpy2.min.js",
-            "ext": "https://www.100km.top/js/NT动漫.js"
+            "ext": "https://www.100km.top/js/NT动漫.js",
+            "jar": "https://www.100km.top/fm.jar"
         },
         {
             "key": "新6V",
